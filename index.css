@@ -1,0 +1,11 @@
+.navbar ul{
+    display: flex;
+    float: right;
+}
+.navbar li{
+    padding-right: 50px;
+    list-style: none;
+}
+.navbar li:hover{
+    color:brown;
+}
