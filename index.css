@@ -1,5 +1,6 @@
 .navbar{
-    color: white;
+    /* color: white; */
+    max-width: 100%;
 }
 .navbar ul{
     display: flex;
@@ -12,12 +13,18 @@
 .navbar li:hover{
     color:brown;
 }
+.view{
+    display: flex;
+    justify-content: space-between;
+}
 .mains{
-    padding-left: 150px;
+    padding-left: 250px;
+    padding-right: 350px;
     padding-top: 100px;
     background-color: #412f21;
     color: white;
     padding-bottom: 150px;
+    width: 700px;
 }
 .main1{
     font-size: 50px;
@@ -29,4 +36,25 @@
     border-style:solid;
     border-color: white;
     border-radius: 20px;
+}
+.passport{
+    width: 650px;
+    margin-left: -200px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+}
+.v2{
+    display: flex;
+    background-color: black;
+    padding: 150px;
+    margin-top:0px;
+    color: white;
+}
+.me1{
+    padding-left: 100px;
+}
+.me2{
+    padding-left: 400px;
+    font-size: 20px;
 }
