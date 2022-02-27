@@ -65,15 +65,20 @@
     margin:200px;
     padding: 50px;
     margin-top: -50px;
-    background-color: #412f21;
+    background-color: #776a54;
     color:white;
+    margin-bottom: 0px;
 }
 .projects li{
     list-style: none;
+    font-size: 18px;
 }
 .projects a{
     text-decoration: none;
     color: #412f21;
+}
+.pro{
+    font-size: 25px;
 }
 .bt1{
     text-decoration: none;
@@ -87,4 +92,17 @@
 }
 .exp{
     text-align: center;
+}
+.contacts{
+    display: flex;
+}
+.contacts ul{
+    display: flex;
+}
+.contacts li{
+    padding-left: 100px;
+    list-style: none;
+}
+.edittext{
+    font-size: 25px;
 }
