@@ -73,11 +73,11 @@
 }
 .projects a{
     text-decoration: none;
-    color: white;
+    color: #412f21;
 }
 .bt1{
     text-decoration: none;
-    background-color: #412f21;
+    background-color: white;
     border-radius: 10px;
     width: 150px;
     padding: 10px;
