@@ -61,3 +61,30 @@
     margin-top: 70px;
     margin-bottom: 70px;
 }
+.projects{
+    margin:200px;
+    padding: 50px;
+    margin-top: -50px;
+    background-color: #412f21;
+    color:white;
+}
+.projects li{
+    list-style: none;
+}
+.projects a{
+    text-decoration: none;
+    color: white;
+}
+.bt1{
+    text-decoration: none;
+    background-color: #412f21;
+    border-radius: 10px;
+    width: 150px;
+    padding: 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+}
+.exp{
+    text-align: center;
+}
