@@ -46,15 +46,18 @@
 }
 .v2{
     display: flex;
-    background-color: #251b12;
-    padding: 150px;
     margin-top:0px;
-    color: white;
 }
-.me1{
-    padding-left: 100px;
+.about{
+    width: 900px;
 }
 .me2{
-    padding-left: 400px;
+    padding: 100px;
     font-size: 20px;
+    text-align: center;
+    background-color: #412f21;
+    color: white;
+    margin-left: -200px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
