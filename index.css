@@ -122,3 +122,139 @@
 .edittext{
     font-size: 25px;
 }
+@media screen and (max-width: 480px) 
+{
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar li{
+        /* padding-right: 50px; */
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+    }
+    .navbar a:hover{
+        color:brown;
+    }
+    .navbar a{
+        text-decoration: none;
+        color: black;
+    }
+    .view{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+    }
+    .mains{
+        padding: 0px;
+        background-color: #412f21;
+        color: white;
+        width: 300px;
+        /* padding-bottom: 150px; */
+        /* width: 700px; */
+    }
+    .main1{
+        padding: 0px;
+        width: 300px;
+        margin: 0px;
+        width: 300px;
+    }
+    .b1{
+        background-color: #412f21;
+        color: white;
+        /* padding:15px; */
+        border-style:solid;
+        border-color: white;
+        border-radius: 20px;
+    }
+    .passport{
+        /* width: 300px; */
+        margin-top: 70px;
+        margin-bottom: 70px;
+    
+    }
+    .v2{
+        display: flex;
+        flex-direction: column;
+        margin-top:0px;
+        width: 300px;
+    }
+    .about{
+        width: 300px;
+    }
+    .me2{
+       padding: 0px;
+        font-size: 20px;
+        text-align: center;
+        background-color: #412f21;
+        color: white;
+        /* margin-left: -200px;
+        margin-top: 70px;
+        margin-bottom: 70px; */
+    }
+    .hob{
+        background-color:#412f21;
+        color: white;
+        margin: 0px;
+        width: 300px;
+        padding: 0px;
+    }
+    .hob11{
+        font-size: 25px;
+    }
+    .hob12{
+        font-size: 18px;
+    }
+    .hobbies li{
+        list-style: none;
+    }
+    .projects{
+        width:300px;
+        background-color: #9e8f76;
+        color:white;
+        margin: 0px;
+        padding: 0px;
+    }
+    .projects li{
+        list-style: none;
+        font-size: 18px;
+    }
+    .projects a{
+        text-decoration: none;
+        color: #412f21;
+    }
+    .pro{
+        font-size: 25px;
+    }
+    .bt1{
+        text-decoration: none;
+        background-color: white;
+        border-radius: 10px;
+        /* width: 150px;
+        padding: 10px; */
+        border-style: solid;
+        border-color: white;
+        border-width: thin;
+    }
+    .exp{
+        text-align: center;
+    }
+    .contacts{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    .contacts ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .contacts li{
+        /* padding-left: 100px; */
+        list-style: none;
+    }
+    .edittext{
+        font-size: 25px;
+    }
+}
